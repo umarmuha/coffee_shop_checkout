@@ -23,28 +23,57 @@
       </div>
     </header>
     <div class="cards">
-      <div class="card1">
+      <div class="card1 brand-card">
         <h3>ITEMS</h3>
-        <div>
-          <div>
-            <p>1x</p>
-            <p>Cappucino</p>
-            <p>Light Foam</p>
-            <p>$6.00</p>
-          </div>
-        </div>
+        <ul class="items">
+          <li class="item">
+            <div class="item-quantity">1x</div>
+            <div class="item-name">Cappucino</div>
+            <div class="item-price">$6.00</div>
+            <ul class="item-options">
+              <li>Light Foam</li>
+            </ul>
+          </li>
+          <hr />
+          <li class="item">
+            <div class="item-quatity">1x</div>
+            <div class="item-name">Cappucino</div>
+            <div class="item-price">$7.90</div>
+            <ul class="item-options">
+              <li>Almond Milk</li>
+              <li>Double Expresson Shot</li>
+            </ul>
+          </li>
+          <hr />
+          <li class="item">
+            <div class="item-quatity">1x</div>
+            <div class="item-name">Croissant</div>
+            <div class="item-price">$5.36</div>
+            <ul class="item-options">
+              <li>Butter</li>
+            </ul>
+          </li>
+        </ul>
       </div>
-      <div class="card2">
+      <div class="card2 brand-card">
         <h3>NAME</h3>
         <label for="name">Name for order</label>
         <input type="text" id="name" name="name" />
       </div>
-      <div class="card3">
+      <div class="card3 brand-card">
         <h3>PAYMENT</h3>
-        <label for="cardnumber">Card Number</label>
-        <input type="text" id="cardnumber" name="cardnumber" />
-        <label for="ccvnumber">CCV Number</label>
-        <input type="text" id="ccvnumber" name="ccvnumber" />
+        <div>
+          <inputgroup>
+            <label for="cardnumber">Card Number</label>
+            <input type="text" id="cardnumber" name="cardnumber" />
+          </inputgroup>
+        </div>
+        <div>
+          <inputgroup>
+            <label for="ccvnumber">CCV Number</label>
+            <input type="text" id="ccvnumber" name="ccvnumber" />
+          </inputgroup>
+        </div>
       </div>
     </div>
   </body>
