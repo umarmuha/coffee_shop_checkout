@@ -55,24 +55,29 @@
           </li>
         </ul>
       </div>
-      <div class="card2 brand-card">
-        <h3>NAME</h3>
-        <label for="name">Name for order</label>
-        <input type="text" id="name" name="name" />
-      </div>
-      <div class="card3 brand-card">
-        <h3>PAYMENT</h3>
-        <div>
-          <inputgroup>
-            <label for="cardnumber">Card Number</label>
-            <input type="text" id="cardnumber" name="cardnumber" />
-          </inputgroup>
+      <div class="card2">
+        <div class="brand-card">
+          <h3>NAME</h3>
+          <div class="input-group">
+            <label class="input-label" for="name">Name for order</label>
+            <input type="text" id="name" name="name" />
+          </div>
         </div>
-        <div>
-          <inputgroup>
-            <label for="ccvnumber">CCV Number</label>
-            <input type="text" id="ccvnumber" name="ccvnumber" />
-          </inputgroup>
+        <div class="brand-card">
+          <h3>PAYMENT</h3>
+          <div class="input-group">
+            <label class="input-label" for="cardnumber">Card Number</label>
+            <input type="text" id="cardnumber" name="cardnumber" />
+          </div>
+          <div class="input-group">
+            <label class="input-label" for="ccvnumber">CCV Number</label>
+            <input
+              class="input-cvv"
+              type="text"
+              id="ccvnumber"
+              name="ccvnumber"
+            />
+          </div>
         </div>
       </div>
     </div>
