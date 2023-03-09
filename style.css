@@ -5,7 +5,10 @@
 .page {
   font-family: "Open Sans", sans-serif;
   display: grid;
-  grid-template-areas: "header";
+  grid-template-areas:
+    "header"
+    "1fr"
+    "1fr";
   margin: 0;
   gap: 1rem;
 }
@@ -49,7 +52,6 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   grid-auto-flow: column;
 }
 
@@ -128,4 +130,29 @@ input {
   background-color: #eee1d5;
   color: #885a2d;
   padding: 0 0.5rem;
+}
+
+.totals-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.totals-table {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+}
+
+.totals-table td {
+  padding: 0.5rem;
+}
+
+.totals-table td:last-child {
+  text-align: right;
+}
+
+.final-totals {
+  font-weight: bold;
 }
