@@ -156,3 +156,14 @@ input {
 .final-totals {
   font-weight: bold;
 }
+
+.order-button {
+  background-color: #43281c;
+  color: #fbf2c0;
+  border: none;
+  border-radius: 100px;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 98%;
+  cursor: pointer;
+}
